@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run -A --watch=static/,routes/ dev.ts --allow-net=https://pokeapi.co/api/v2/"
+  },
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  }
+}
